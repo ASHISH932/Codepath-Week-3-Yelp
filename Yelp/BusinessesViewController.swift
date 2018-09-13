@@ -9,10 +9,6 @@
 import UIKit
 
 class BusinessesViewController: UIViewController {
-    @IBOutlet weak var thumbView: UIView!
-    @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var distanceLabel: UILabel!
-    @IBOutlet weak var ratingLabel: UIImageView!
     
     var businesses: [Business]!
     

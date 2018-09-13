@@ -84,6 +84,16 @@
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="addressLabel" destination="S6y-AN-YYn" id="ROz-2H-CPx"/>
+                                            <outlet property="categoryLabel" destination="S6y-AN-YYn" id="UOU-9R-4O6"/>
+                                            <outlet property="distanceLabel" destination="6HL-Dq-e8d" id="yOP-hH-gUC"/>
+                                            <outlet property="nameLabel" destination="j4a-ef-nJs" id="EPh-kc-ajK"/>
+                                            <outlet property="ratingImageView" destination="s86-zD-dYD" id="VDW-ma-7Qc"/>
+                                            <outlet property="ratingLabel" destination="s86-zD-dYD" id="pt4-jn-uy1"/>
+                                            <outlet property="reviewLabel" destination="0Ap-1D-Q9y" id="yMU-Fh-k23"/>
+                                            <outlet property="thumbImageView" destination="0Ap-1D-Q9y" id="jpB-AO-vcU"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -97,12 +107,6 @@
                             <constraint firstItem="mhn-kK-ofC" firstAttribute="leading" secondItem="XhR-oz-92f" secondAttribute="leading" id="vVo-1q-xGH"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="distanceLabel" destination="6HL-Dq-e8d" id="9SM-7T-MDe"/>
-                        <outlet property="nameLabel" destination="j4a-ef-nJs" id="9m1-YK-o7F"/>
-                        <outlet property="ratingLabel" destination="s86-zD-dYD" id="JXu-UF-DDj"/>
-                        <outlet property="thumbView" destination="0Ap-1D-Q9y" id="RRG-mM-7pb"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fgb-4b-F1b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
