@@ -91,8 +91,8 @@
                                             <outlet property="nameLabel" destination="j4a-ef-nJs" id="EPh-kc-ajK"/>
                                             <outlet property="ratingImageView" destination="s86-zD-dYD" id="VDW-ma-7Qc"/>
                                             <outlet property="ratingLabel" destination="s86-zD-dYD" id="pt4-jn-uy1"/>
-                                            <outlet property="reviewLabel" destination="0Ap-1D-Q9y" id="yMU-Fh-k23"/>
-                                            <outlet property="thumbImageView" destination="0Ap-1D-Q9y" id="jpB-AO-vcU"/>
+                                            <outlet property="reviewCountLabel" destination="iJv-T9-QY5" id="PKA-5S-27B"/>
+                                            <outlet property="thumbImageView" destination="N0s-L5-ROh" id="VHA-zn-3oj"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
