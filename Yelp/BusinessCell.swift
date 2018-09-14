@@ -11,6 +11,12 @@ import UIKit
 class BusinessCell: UITableViewCell {
     @IBOutlet weak var ratingLabel: UIImageView!
     
+    var business: Business! {
+        didSet {
+            nameLabel.text = business.name
+        }
+    }
+    
     @IBOutlet weak var categoryLabel: UILabel!
     @IBOutlet weak var addressLabel: UILabel!
     @IBOutlet weak var reviewLabel: UIView!
