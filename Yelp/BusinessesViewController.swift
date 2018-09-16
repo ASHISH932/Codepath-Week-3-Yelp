@@ -17,8 +17,10 @@ class BusinessesViewController: UIViewController, UITableViewDelegate, UITableVi
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
-        tableView.rowHeight = 120
+        tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 120
+        UISearchBar().sizeToFit()
+        self.navigationItem.titleView = UISearchBar()
         Business.searchWithTerm(term: "Thai", completion: { (businesses: [Business]?, error: Error?) -> Void in
             
                 self.businesses = businesses
